@@ -7,5 +7,5 @@ export const swapConfig = {
   maxLamports: 1500, // Micro lamports for priority fee
   direction: "in" as "in" | "out", // Swap direction: 'in' or 'out'
   liquidityFile: "trimmed_mainnet.json",
-  maxRetries: 5,
+  maxRetries: 10,
 };
